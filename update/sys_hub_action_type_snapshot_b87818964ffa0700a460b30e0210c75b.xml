@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <description>&lt;p&gt;Approve or Reject a request based on the Manager's approval/rejection. &lt;/p&gt;
+If a manual approver is added to the record, factor that into the approval or rejection.</description>
+        <label_cache>[{"name":"{{action.ah_request}}","label":"action➛Request","type":"action","ref":"task"},{"name":"{{action.ah_request.requested_for.manager}}","label":"action➛Request➛Requested for➛Manager","type":"action","ref":"sys_user"},{"name":"{{action.ah_request.sys_created_on}}","label":"action➛Request➛Created","type":"action","ref":""},{"name":"{{step[f798a0a7-2643-487f-a3f4-77dc4baebc12].state}}","label":"step➛Ask for Approval step➛Approval State","type":"step","ref":""}]</label_cache>
+        <name>Ask for Manager Approval</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Ask for Manager Approval">db60dc124ffa0700a460b30e0210c7a7</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-04 20:39:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b87818964ffa0700a460b30e0210c75b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Ask for Manager Approval</sys_name>
+        <sys_package display_value="ExpensesGettingStarted" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ExpensesGettingStarted">5ff3c8964fba0700a460b30e0210c743</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_b87818964ffa0700a460b30e0210c75b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-04 20:39:43</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=b87818964ffa0700a460b30e0210c75b"/>
+    <sys_element_mapping action="delete_multiple" query="id=b87818964ffa0700a460b30e0210c75b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_state</field>
+        <id>b87818964ffa0700a460b30e0210c75b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-04 20:39:43</sys_created_on>
+        <sys_id>ad7818964ffa0700a460b30e0210c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-04 20:39:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_b87818964ffa0700a460b30e0210c75b</table>
+        <value>{{step[f798a0a7-2643-487f-a3f4-77dc4baebc12].state}}</value>
+    </sys_element_mapping>
+</record_update>
