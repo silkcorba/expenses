@@ -18,20 +18,18 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Task" name="task">91644a404f032200a460b30e0210c780</super_class>
+        <super_class display_value="Task" name="task">d131b9e9dba90300efc57416bf9619dc</super_class>
         <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-04 19:12:51</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>80748c1a4fba0700a460b30e0210c725</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Expenses</sys_name>
-        <sys_package display_value="ExpensesGettingStarted" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
+        <sys_package display_value="Expenses" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="ExpensesGettingStarted">5ff3c8964fba0700a460b30e0210c743</sys_scope>
+        <sys_scope display_value="Expenses">5ff3c8964fba0700a460b30e0210c743</sys_scope>
         <sys_update_name>sys_db_object_80748c1a4fba0700a460b30e0210c725</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-12-04 19:12:51</sys_updated_on>

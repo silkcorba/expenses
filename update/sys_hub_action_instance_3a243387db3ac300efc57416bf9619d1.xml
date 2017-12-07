@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Approve Expense in Concur">fb98af4fdbf6c300efc57416bf9619fb</action_type>
+        <comment/>
+        <compiled_snapshot display_value="">fb98af4fdbf6c300efc57416bf9619fb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Travel Expense Approval">ee24bb47db3ac300efc57416bf961979</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 20:35:04</sys_created_on>
+        <sys_id>3a243387db3ac300efc57416bf9619d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Expenses" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expenses">5ff3c8964fba0700a460b30e0210c743</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3a243387db3ac300efc57416bf9619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-07 20:35:04</sys_updated_on>
+        <ui_id>6a40a253-a0a8-4e3b-9075-24f2dbfdc586</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a243387db3ac300efc57416bf9619d1"/>
+    <sys_element_mapping action="delete_multiple" query="id=3a243387db3ac300efc57416bf9619d1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_approval_status</field>
+        <id>3a243387db3ac300efc57416bf9619d1</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 20:35:04</sys_created_on>
+        <sys_id>b2243387db3ac300efc57416bf9619d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-07 20:35:04</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fb98af4fdbf6c300efc57416bf9619fb</table>
+        <value>{{Created_1.current.approval}}</value>
+    </sys_element_mapping>
+</record_update>

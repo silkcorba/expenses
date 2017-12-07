@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Expenses</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Expenses</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">5d31b9e9dba90300efc57416bf9619dd</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-12-05 18:14:39</sys_created_on>
+        <sys_id>12d08566db7e4300efc57416bf96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expenses</sys_name>
+        <sys_package display_value="Expenses" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expenses">5ff3c8964fba0700a460b30e0210c743</sys_scope>
+        <sys_update_name>sys_wizard_answer_12d08566db7e4300efc57416bf96197d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-12-05 18:14:39</sys_updated_on>
+        <table/>
+        <target_url>x_snc_expensesgett_expenses.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

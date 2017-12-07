@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask for Manager Approval">db60dc124ffa0700a460b30e0210c7a7</action_type>
+        <comment>Expense is more than $100, request for approval or auto-approve after a business day if no response received</comment>
+        <compiled_snapshot display_value="">db60dc124ffa0700a460b30e0210c7a7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Travel Expense Approval">07a3fb07db3ac300efc57416bf9619d9</flow>
+        <order>2.1</order>
+        <parent_ui_id>64230a58-6f29-458b-8e6c-8f6d7d10aa4f</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 20:32:55</sys_created_on>
+        <sys_id>03a33b47db3ac300efc57416bf9619c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Expenses" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expenses">5ff3c8964fba0700a460b30e0210c743</sys_scope>
+        <sys_update_name>sys_hub_action_instance_03a33b47db3ac300efc57416bf9619c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-07 20:32:55</sys_updated_on>
+        <ui_id>c685c114-ca64-49c7-85bb-54244b531eab</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=03a33b47db3ac300efc57416bf9619c8"/>
+    <sys_element_mapping action="delete_multiple" query="id=03a33b47db3ac300efc57416bf9619c8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_request</field>
+        <id>03a33b47db3ac300efc57416bf9619c8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 20:32:55</sys_created_on>
+        <sys_id>0ba33b47db3ac300efc57416bf9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-07 20:32:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_db60dc124ffa0700a460b30e0210c7a7</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+</record_update>

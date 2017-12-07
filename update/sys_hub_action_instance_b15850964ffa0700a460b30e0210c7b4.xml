@@ -4,7 +4,7 @@
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
-        <comment/>
+        <comment>Automatically approve the travel</comment>
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="Travel Expense Approval">bf55485a4fba0700a460b30e0210c7b4</flow>
@@ -13,17 +13,15 @@
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-04 20:39:12</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_id>b15850964ffa0700a460b30e0210c7b4</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
-        <sys_package display_value="ExpensesGettingStarted" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
+        <sys_package display_value="Expenses" source="x_snc_expensesgett">5ff3c8964fba0700a460b30e0210c743</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
-        <sys_scope display_value="ExpensesGettingStarted">5ff3c8964fba0700a460b30e0210c743</sys_scope>
+        <sys_scope display_value="Expenses">5ff3c8964fba0700a460b30e0210c743</sys_scope>
         <sys_update_name>sys_hub_action_instance_b15850964ffa0700a460b30e0210c7b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-04 20:40:02</sys_updated_on>
+        <sys_updated_on>2017-12-07 20:36:29</sys_updated_on>
         <ui_id>594e6ed3-d519-44a1-9474-1aae6789f9bf</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b15850964ffa0700a460b30e0210c7b4"/>
