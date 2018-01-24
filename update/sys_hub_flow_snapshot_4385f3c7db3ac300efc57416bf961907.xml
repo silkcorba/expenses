@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_hub_flow_snapshot">
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access/>
         <active>true</active>
+        <annotation/>
+        <category/>
         <description/>
         <label_cache>[{"name":"Created_1.current.approval","label":"Trigger➛Expenses Record➛Approval","reference":"","reference_display":"Approval","type":"choice","base_type":"choice","parent_table_name":"x_snc_expensesgett_expenses","column_name":"approval","choices":[{"reference":false,"missing":false,"image":"","rawLabel":"Not Yet Requested","selected":false,"label":"Not Yet Requested","used":false,"value":"not requested"},{"reference":false,"missing":false,"image":"","rawLabel":"Requested","selected":false,"label":"Requested","used":false,"value":"requested"},{"reference":false,"missing":false,"image":"","rawLabel":"Approved","selected":false,"label":"Approved","used":false,"value":"approved"},{"reference":false,"missing":false,"image":"","rawLabel":"Rejected","selected":false,"label":"Rejected","used":false,"value":"rejected"}]},{"name":"c685c114-ca64-49c7-85bb-54244b531eab.approval_state","label":"2.1➛Approval State","reference_display":"Approval State"},{"name":"594e6ed3-d519-44a1-9474-1aae6789f9bf.table_name","label":"1.1➛Expenses Table","reference":"x_snc_expensesgett_expenses","reference_display":"Expenses Table"},{"name":"594e6ed3-d519-44a1-9474-1aae6789f9bf.record","label":"1.1➛Expenses Record","reference":"x_snc_expensesgett_expenses","reference_display":"Expenses Record"},{"name":"Created_1.current.amount","label":"Trigger➛Expenses Record➛Amount","reference":"","reference_display":"Amount","type":"float","base_type":"float","parent_table_name":"x_snc_expensesgett_expenses","column_name":"amount"},{"name":"Created_1.current","label":"Trigger➛Expenses Record","reference":"x_snc_expensesgett_expenses","reference_display":"Expenses","type":"reference","base_type":"reference"},{"name":"Created_1.current.requested_for.manager","label":"Trigger➛Expenses Record➛Requested for➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"{{static.aacb62e2c0a80015007f67f752c2b12c}}","label":"Project Mgmt","reference":"sys_user_group","type":"reference","base_type":"reference"},{"name":"Created_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"f8f1835d-0f61-4d11-a7cb-e1911687e0d1.approval_state","label":"1➛Approval State","reference_display":"Approval State"}]</label_cache>
+        <master>false</master>
         <name>Travel Expense Approval</name>
+        <outputs/>
         <parent_flow display_value="Travel Expense Approval">bf55485a4fba0700a460b30e0210c7b4</parent_flow>
         <status>published</status>
         <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
@@ -19,5 +24,8 @@
         <sys_update_name>sys_hub_flow_snapshot_4385f3c7db3ac300efc57416bf961907</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2017-12-07 20:41:06</sys_updated_on>
+        <type/>
     </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4385f3c7db3ac300efc57416bf961907"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4385f3c7db3ac300efc57416bf961907"/>
 </record_update>

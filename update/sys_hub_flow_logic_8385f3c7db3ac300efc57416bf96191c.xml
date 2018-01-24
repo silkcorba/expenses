@@ -2,12 +2,14 @@
 <record_update table="sys_hub_flow_logic">
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">8a5894964ffa0700a460b30e0210c7d1</block>
+        <comment/>
         <connected_to>fcfb082e-ea93-4a5b-8b18-c56e8a6966cd</connected_to>
         <display_text/>
         <flow display_value="Travel Expense Approval">4385f3c7db3ac300efc57416bf961907</flow>
         <inputs/>
-        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <logic_definition display_value="true">1f781bf3c32232002841b63b12d3aee6</logic_definition>
         <order>2</order>
+        <outputs_to_assign/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>

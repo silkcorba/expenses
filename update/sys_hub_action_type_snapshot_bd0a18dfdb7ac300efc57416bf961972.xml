@@ -13,6 +13,7 @@ The Description, Short Description and Priority fields are set based on then giv
  The created incident task
 &lt;/p&gt;</description>
         <label_cache>[{"name":"{{action.ah_incident}}","label":"action➛Incident","type":"action","ref":"incident"},{"name":"{{action.ah_incident.short_description}}","label":"action➛Incident➛Short description","type":"action","ref":""},{"name":"{{action.ah_incident.priority}}","label":"action➛Incident➛Priority","type":"action","ref":""},{"name":"{{action.ah_incident.description}}","label":"action➛Incident➛Description","type":"action","ref":""},{"name":"{{step[997b8d83-3e75-41c7-99c4-657cf78b3416].record}}","label":"step➛Create Record step➛Incident Task Record","type":"step","ref":"incident_task"}]</label_cache>
+        <master>false</master>
         <name>Copy of Create Incident Task on Incident</name>
         <outputs/>
         <outputs/>

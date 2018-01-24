@@ -7,6 +7,7 @@
         <description>&lt;p&gt;Approve or Reject a request based on the Manager's approval/rejection. &lt;/p&gt;
 If a manual approver is added to the record, factor that into the approval or rejection.</description>
         <label_cache>[{"name":"{{action.ah_request}}","label":"action➛Request","type":"action","ref":"task"},{"name":"{{action.ah_request.requested_for.manager}}","label":"action➛Request➛Requested for➛Manager","type":"action","ref":"sys_user"},{"name":"{{action.ah_request.sys_created_on}}","label":"action➛Request➛Created","type":"action","ref":""},{"name":"{{step[f798a0a7-2643-487f-a3f4-77dc4baebc12].state}}","label":"step➛Ask for Approval step➛Approval State","type":"step","ref":""}]</label_cache>
+        <master>false</master>
         <name>Ask for Manager Approval</name>
         <outputs/>
         <outputs/>

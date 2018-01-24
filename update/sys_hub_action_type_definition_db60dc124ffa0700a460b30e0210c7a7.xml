@@ -9,7 +9,8 @@
 &lt;p&gt;If the manager does not respond in one business day, it will be automatically approved&lt;/p&gt;
 If a manual approver is added to the record, factor that into the approval or rejection.</description>
         <label_cache>[{"name":"{{action.ah_request}}","label":"action➛Request","type":"action","ref":"task"},{"name":"{{action.ah_request.requested_for.manager}}","label":"action➛Request➛Requested for➛Manager","type":"action","ref":"sys_user"},{"name":"{{action.ah_request.sys_created_on}}","label":"action➛Request➛Created","type":"action","ref":""},{"name":"{{step[f798a0a7-2643-487f-a3f4-77dc4baebc12].state}}","label":"step➛Ask for Approval step➛Approval State","type":"step","ref":""}]</label_cache>
-        <latest_snapshot display_value="Ask for Manager Approval">b87818964ffa0700a460b30e0210c75b</latest_snapshot>
+        <latest_snapshot>b87818964ffa0700a460b30e0210c75b</latest_snapshot>
+        <master_snapshot/>
         <name>Ask for Manager Approval</name>
         <outputs/>
         <outputs/>

@@ -4,6 +4,7 @@
         <action_inputs/>
         <action_inputs/>
         <action_type display_value="Ask for Manager Approval">db60dc124ffa0700a460b30e0210c7a7</action_type>
+        <action_type_parent/>
         <comment>Expense is more than $100, request for approval or auto-approve after a business day if no response received</comment>
         <compiled_snapshot/>
         <display_text/>
